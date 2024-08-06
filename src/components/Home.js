@@ -18,7 +18,7 @@ const Home = () => {
     <div className="home-container">
     <div className="hero-section">
       <h1>Welcome to IMDB Movies</h1>
-      <p>Explore and your favorite movies!</p>
+      <p>Explore and enjoy your favorite movies!</p>
     </div>
     <div className="movie-list">
       {allMovies.map((movie) => (
